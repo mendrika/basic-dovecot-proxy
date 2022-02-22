@@ -1,0 +1,6 @@
+
+# full documentation here: https://doc.dovecot.org/configuration_manual/authentication/proxies/
+# passwdfile sample: userdb and passdb
+
+user@domain.com::::::: host=desired_backend  nopassword='y' proxy='y' proxy_nopipeling='y' starttls=any-cert nologin='y'
+
